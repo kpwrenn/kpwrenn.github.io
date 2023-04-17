@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    box-sizing: border-box;
+    
+}
+ul {
+    list-style-type: none;
+    
+  }
+nav { 
+    text-align: center;
+    margin: 10px auto;
+}
+nav li { 
+    font-size: 50px;
+    font-family: 'VT323', monospace;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 33%;
+    z-index: 20;
+}
+nav a li:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+#inspiration { 
+    display: flex; 
+    margin: 5em;
+}   
+
+.left { 
+    box-shadow: -35px -35px #18C1C2;
+    position: relative;
+    top: 7em;
+    right: 1em;
+    border: 1px solid gray;
+}
+.left h1 { 
+    text-align: center;
+    margin-top: 1em;
+    font-family: 'VT323', monospace;
+    font-size: 3em;
+}
+.left p { 
+    font-family: 'VT323', monospace;
+    margin: 1em auto;
+    width: 75%;
+    text-align: center;
+    font-size: 1.75em;
+}
+.right { 
+    display: flex;
+    align-items: center;
+    
+}
+figure > img { 
+    width: 100%;
+    height: auto;
+    box-shadow: -25px -25px 5px #8fe897;
+}
+.left, .right { 
+    width: 50%; 
+    height: auto;
+    margin: 1em;
+}
+#grid-1 {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 7em;
+    align-items: center;
+  }
+  
+#grid > div {
+    padding: 10px;
+  }
+.grid-item img { 
+    width: 100%;
+}
+#grid-2 {
+    display: flex;
+    gap: 1px;
+    margin-top: 7em;
+    align-items: center;
+
+  }
+#grid-2-left { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#grid-2 > .left { 
+    box-shadow: -35px -35px #c875eb;
+}
+#grid-2-right img { 
+    width: 100%;
+    height: 100%;
+}
+.left-bottom { 
+    margin-top: 5em;
+    padding-bottom: 3em;
+}
+#quotes { 
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+}
+.quotes { 
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.quotes-right { 
+    margin-right: 0.3em;
+}
+#reflection { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reflection > .left { 
+    margin-top: 5em;
+}
+#tea-cozy { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 25em);
+    border: 1px solid red;
+    height: auto;
+    width: 100%;
+    margin-top: 30em;
+    align-items: center;
+    justify-items: center;
+}
+#tea-cozy > img { 
+    width: 75%;
+}
+.full { 
+    align-self: flex-start;
+    margin-top: 2em;
+}
+.resized { 
+    margin-top: 5em;
+    grid-row: 1 / span 2;
+    grid-column: 2 / 2;
+    height: 100%;
+    width: auto;
+}
+.tea-cozy-button { 
+    padding: 2.5em; 
+    background-color: burlywood;
+    color: black; 
+    border: 1px solid black; 
+    text-decoration: none;
+    font-family: cursive;
+    border-radius: 5%;
+    font-size: 2em;
+    
+}
+.tea-cozy-button:hover { 
+    color: white; 
+    border: 1px solid white; 
+}
